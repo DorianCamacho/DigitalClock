@@ -13,7 +13,7 @@ const showClock = () =>{
     let dateText = `${dayWeek}, ${day} ${month}`;
     document.getElementById("date").innerHTML = dateText;
 
-    document.getElementById("container").classList.toggle("animate");
+    //document.getElementById("container").classList.toggle("animate");
 }
 
 const hourFormat = (hour) =>{
